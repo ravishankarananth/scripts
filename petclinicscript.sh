@@ -10,7 +10,7 @@ sudo apt-get -y install git
 #install Maven
 sudo apt-get -y install maven
 #set path of java home
-sudo bash -c "echo 'JAVA_HOME=\"usr/lib/jvm/java-8-openjdk-amd64\"' >> /etc/environment"
+sudo bash -c "echo 'JAVA_HOME=\"/usr/lib/jvm/java-8-openjdk-amd64\"' >> /etc/environment"
 
 
 #clone petclinic and build
